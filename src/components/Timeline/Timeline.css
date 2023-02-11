@@ -1,0 +1,145 @@
+
+  @font-face{
+    font-family: ArialRounded;
+    src: url(../../fonts/arial-rounded-mt-bold.ttf);
+  }
+    .container {
+        margin-top: 25px;
+        width: 98vw;
+        display: flex;
+        justify-content: center;
+        
+        filter: drop-shadow(3px 9px 7px rgba(34, 34, 34, 0.632));
+        transition: 0.5s;
+      }
+      
+      .caja-flecha{
+          width: 220px;
+          height: 150px;
+          background: rgb(58,152,75);
+          background: linear-gradient(90deg, rgba(58,152,75,1) 0%, rgba(31,117,91,1) 100%);
+          position: relative;
+          border-top-left-radius: 15px;
+          border-bottom-left-radius: 15px;
+          padding: 20px;          
+          margin-right: 20px;
+          display: flex;
+          justify-content: center;
+          align-items:center;
+          flex-direction: column;
+          text-align: center;
+          transition: 0.5s;
+      }
+      .caja-flecha img{
+        width: 35%;
+        pointer-events: none;
+        transition: 0.5s;
+      }
+      .h4timeline{
+        width: 70%;
+        margin: 10px;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        font-family: ArialRounded;
+        pointer-events: none;
+      } 
+      
+      .flecha {
+          width: 0; 
+          height: 0; 
+          border-top: 10px solid transparent;
+          border-bottom: 10px solid transparent;
+          border-right: 10px solid #1f755b;
+          position: absolute;
+          right: -9px;
+          top: 85px;
+          transform: rotate(180deg);
+          z-index: 10;
+          transition: 0.5s;
+      }
+      
+      .caja{
+        width: 250px;
+        height: 150px;
+        background-color: #ffffff;
+        position: relative;
+        right: 21px;
+        
+        padding: 20px;
+        transition: 0.5s;
+        
+        
+    }
+    
+    .line{
+        top:10px;
+        
+        height: 90%;
+        width: 1px;
+        
+        position: relative;
+        right: 21px;
+        z-index: 1;
+        pointer-events: none;
+    }
+
+.containerBox :hover{
+  box-shadow: inset 0 -10px 15px -10px rgba(18, 18, 91, 0.5);
+  width: 350px;
+}
+.container :hover img{
+  width: 40%;
+}
+.tittleConference{
+  margin: 0;
+  font-size: 25px;
+  font-family: ArialRounded;
+  color: #0C1528;
+  pointer-events: none;
+}
+.descriptionTimeline{
+  width: 300px;
+  height: 90px;
+  margin: 10px;
+  margin-left: 15px;
+  font-family: helveticas;
+  font-size: 12px;
+  color: #0C1528;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  pointer-events: none;
+}
+.containerBox{
+  display: flex;
+  
+}
+.containerInfo{
+  display: flex;
+  pointer-events: none;
+  
+}
+.cajas{
+  pointer-events: none;
+  
+}
+.dateEventDay{
+  color:  #4caf50;
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+  margin-top: 15px;
+  font-family: ArialRounded;
+}
+.dateEventMonth{
+  color:  #4caf50;
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+  font-family: ArialRounded;
+}
+
+#box3{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px; 
+}

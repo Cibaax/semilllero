@@ -1,0 +1,33 @@
+.containerAllRequirements{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(235, 239, 239);
+    justify-content: center;
+    align-items: center;
+}
+.containerRequirements{
+    
+    width: 30%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    padding: 50px;
+    background-color: rgb(20, 56, 132);
+    color: white;
+    border-radius: 20px 0 0 20px;
+    
+}
+.h1Requirements{
+    font-family: ArialRounded;
+}
+.containerForm{
+    width: 50%;
+    height: 400px;
+    
+    
+}

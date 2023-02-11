@@ -1,0 +1,51 @@
+
+.containerFooter{
+    max-width: 100vw;
+    height: 125px;
+    background-color: #12284A;
+    display: flex;
+    flex-wrap: wrap;
+}
+.containerFooter img{
+    height: 40%;
+    width: auto;
+    margin: 10px;
+}
+.box {
+    flex: 1;
+    height: 60%;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    justify-content: center;
+    
+  }
+
+  .box h4{
+    margin-top: 35x
+  }
+  
+  .lineFooter{
+    margin-top: 6%;
+    width: 96vw;
+    height: 1px;
+    position: absolute;
+    background-color: rgb(150, 180, 226);
+    text-align: center;
+    color: white;
+  
+  }
+  
+  .lineFooter2{
+    margin-top: 6%;
+    width: 4vw;
+    height: 1px;
+    position: absolute;
+    background-color: #12284A;
+    
+  }
+ .box1 img{
+    height: 65%;
+ }
+ 

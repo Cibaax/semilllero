@@ -1,0 +1,18 @@
+.visualizar-datos{
+    
+    
+
+}
+
+.datos-item{
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    overflow: hidden;
+  
+  
+  
+  
+  text-overflow: ellipsis;
+}

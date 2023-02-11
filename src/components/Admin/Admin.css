@@ -1,0 +1,17 @@
+.containerAdmin{
+    width: 100vw;
+    display: flex;
+}
+
+.containerAdd{
+    width: 33%;
+    padding: 20px;
+}
+.containerShow{
+    width: 33%;
+    padding: 20px;
+}
+.containerEliminated{
+width: 33%;
+padding: 20px;
+}
