@@ -1,25 +1,21 @@
 
-import './Timeline.css'
-import calendar from '../../images/calendar.png'
 import React, { useState, useEffect } from 'react';
+import './Timeline.css'
 import axios from 'axios';
+import calendar from '../../images/calendar.png'
 
 function Timeline() {
-  const [datos, setDatos] = useState([]);
+  const [data, setData] = useState([]);
 
   useEffect(() => {
-    const obtenerDatos = async () => {
-      try {
-        const response = await axios.get('https://semillero-timeline-default-rtdb.firebaseio.com/events.json');
-        const datosArray = Object.values(response.data);
-        setDatos(datosArray);
-      } catch (error) {
-        console.error(error);
-      }
+    const getData = async () => {
+      const result = await axios.get('https://semillero-timeline-default-rtdb.firebaseio.com/events.json');
+      setData(result.data);
     };
     obtenerDatos();
-  }, [])
-  const firstThree = datos.slice(0, 3);
+  }, []);
+
+  const onlyThree = data.slice(0, 3);
   return (
     <div class="container">
   <div class="caja-flecha">
